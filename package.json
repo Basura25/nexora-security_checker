@@ -1,0 +1,28 @@
+{
+  "name": "noxora-security-checker",
+  "version": "1.0.0",
+  "description": "Noxora Lab free website security header checker",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "start": "node index.js",
+    "dev:server": "node --watch index.js",
+    "dev": "vite",
+    "test": "node --test scanner.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "ipaddr.js": "^2.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^6.0.7"
+  }
+}
